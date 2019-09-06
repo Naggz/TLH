@@ -3,8 +3,40 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
+li {
+  float: left;
+  width: 33%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* TODO: Add more styling to your navigation bar - See W3 Schools for help */
+
+header {
+  background-image: url("https://www.universitiesuk.ac.uk/news/PublishingImages/access-paper-blurred-students.png?RenditionID=7");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  height: 200px;
+}
+
+h2{
+  color: rgb(0, 255, 221);
+}
+
+body{
+  background-color: cornsilk;
+}
 /* TODO: Add more styling to your navigation bar - See W3 Schools for help */
 
 
@@ -16,22 +48,35 @@ ul {
 /* TODO: Change styling to your colour scheme - See W3 Schools for help */
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 3px solid rgba(191, 10, 247, 0);
   float: left;
-  width: 180px;
 }
 
 /* TODO: Change styling to your colour scheme - See W3 Schools for help */
-div.gallery:hover {
-  border: 1px solid #777;
-}
 
 div.gallery img {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+
+
+th:hover{
+  border: 1px solid rgb(45, 10, 247);
+}
+
+
+
+#second th{
+  float: left;
+  width: 50%;
+}
+
+* {
+  box-sizing: border-box;
 }
